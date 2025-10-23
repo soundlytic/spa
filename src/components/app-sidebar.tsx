@@ -11,10 +11,10 @@ import {
   SidebarMenuItem,
   SidebarSeparator,
 } from "@/components/ui/sidebar"
-import { Building2, LogOut, LucideBadgeCheck, LucideBell, LucideCreditCard, LucideLogOut, LucideSparkles, Music, Settings, User } from "lucide-react"
+import { Building2, LucideBadgeCheck, LucideBell, LucideCreditCard, LucideLogOut, LucideSparkles, Music } from "lucide-react"
 import { Link } from "react-router-dom"
 import UploadForm from "./upload-form"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu"
 export function AppSidebar() {
   const items = [
     {
