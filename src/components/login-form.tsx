@@ -20,7 +20,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { loginSchema, type LoginSchema } from "@/validations/loginSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { login as loginApi, type Token } from "@/api/auth";
+import { login as loginApi } from "@/api/auth";
 import type { ApiError } from "@/api";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
